@@ -135,14 +135,7 @@ footer {
     .service p {
         font-size: 0.9rem;
     }
-    .img-site {
-        margin: 5px; /* Réduit l'espace entre les images */
-    }
-    
-    .img-site img {
-        width: 90px; /* Ajuste la taille de l'image */
-        height: auto;
-    }
+   
     .img-site img {
         width: 90px;
         height: auto;
@@ -152,6 +145,9 @@ footer {
         align-items: center;
 
     }
+   
+    
+    
     .service {
         display: block;
         width: 100%; /*assure que la section prenne toute la largeur de l'écran*/
@@ -159,6 +155,10 @@ footer {
         padding: 0; /* Ajuste les marges et padding si nécessaire */
         max-width: none; /* Supprime la limitation de la largeur maximale */
     }
+    .service-bloom {
+        width: 100%; /* Chaque service-bloom occupe 100% de la largeur */
+        margin: 10px 0; /* Un peu d'espacement entre chaque bloc */
+    }    
 
     
   
