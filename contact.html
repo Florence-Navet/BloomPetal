@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylecontact.css">
+  </head>
+  <body>
+    <h1>Contactez-nous</h1>
+    <form action="#" method="post" class="contact-form">
+      <label for="civilité :">Civilité</label>
+      <select id="civilité" name="civilité" required>
+        <option value="">Selectionnez votre civilité</option>
+        <option value="Monsieur" selected>Monsieur</option>
+        <option value="Madame">Madame</option>
+        <option value="Mademoiselle">Mademoiselle</option>
+      </select>
+
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" placeholder="Votre nom" required />
+      <label for="prenom">Prénom :</label>
+      <input
+        type="text"
+        id="prenom"
+        name="prenom"
+        placeholder="Votre prénom"
+        required
+      />
+
+      <label for="adresse">Adresse postale :</label>
+      <input
+        type="text"
+        id="adresse"
+        name="adresse"
+        placeholder="Votre adresse"
+        required
+      />
+      <label>
+        <input type="checkbox" id="privé" name="privé" required>
+        J'accepte la politique de confidentialité
+    </label>
+    <button type="subtmit">Envoyez</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+}
+
+button {
+    background: none;
+    outline: none;
+    border: 1px solid blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: 0.4s ease;
+    cursor: pointer;
+    padding: 15px 20px;
+    color: rgb(183, 34, 131);
+}
+button:hover {
+    color: blue;
+    border: 1px solid rgb(255, 0, 144);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f9F9F9;
+}
+
+nav {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: pink;
+    padding: 10px 20px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 900;
+    margin: 30px 35px;
+    color: palevioletred;
+}
+
+.main-header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color:blue;
+}
+
+.service {
+    max-width: 1100px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service-bloom {
+    width: 30%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.main-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* Permet aux images de se placer sur plusieurs lignes si nécessaire */
+    margin: 50px 0;
+}
+.main-header p {
+    font-size: 1rem;
+}
+.img-site {
+    flex-basis: 22%; /* Ajuste pour avoir 4 images par ligne */
+    margin: 10px;
+}
+.left-part {
+    line-break: 30px;
+  }
+  
+
+.img-site img {
+    width: 145px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.img-site#img6 {
+    width: 90px;
+    height: 40Px; /* Conserve les proportions */
+}
+
+.service-bloom h3 {
+    text-transform: uppercase;
+    color: Pink;
+}
+.service-bloom p {
+    width: 80%; /*de ton parent qui est en block*/
+    margin: 10px auto 20px; /*haut droite/gauche et bas*/
+    color: blue;
+}
+
+footer {
+    background-color: rgba(255, 192, 203, 0.753);
+    min-height: 50px;
+}
+
+/* ***********MEDIAQUERIES*************** */
+@media screen and (max-width:480px) {
+
+    nav li {
+    font-size: 0.7rem;
+    }
+    .service h3{
+        font-size: 0.9rem;
+
+    }
+    .service p {
+        font-size: 0.9rem;
+    }
+    .img-site {
+        margin: 5px; /* Réduit l'espace entre les images */
+    }
+    
+    .img-site img {
+        width: 90px; /* Ajuste la taille de l'image */
+        height: auto;
+    }
+    .img-site img {
+        width: 90px;
+        height: auto;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .service {
+        display: block;
+        width: 100%; /*assure que la section prenne toute la largeur de l'écran*/
+        margin: 0 auto; /*centrer la section */
+        padding: 0; /* Ajuste les marges et padding si nécessaire */
+        max-width: none; /* Supprime la limitation de la largeur maximale */
+    }
+
+    
+  
+
+}
+
