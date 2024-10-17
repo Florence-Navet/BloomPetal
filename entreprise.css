@@ -9,7 +9,7 @@ body {
 
 /* En-tête */
 header {
-  background-color: pink; /* Vert menthe doux pour rappeler la nature */
+  background-color: pink; /* Couleur douce pour le header */
   color: white;
   text-align: center;
   padding: 30px 0;
@@ -44,13 +44,35 @@ header h1 {
   line-height: 1.6;
   max-width: 800px;
   margin: 0 auto;
-}
-p {
   color: blue;
 }
 
-/* Équipe */
-.team {
+/* Style pour la direction */
+.team-lead {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.team-lead img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px rgba(255, 182, 193, 0.6); /* Effet lumineux rose */
+}
+
+.team-lead h3 {
+  font-size: 1.8em;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.team-lead p {
+  color: #777;
+}
+
+/* Style pour les autres membres de l'équipe */
+.team-members {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -83,6 +105,7 @@ p {
   color: #777;
 }
 
+/* Pied de page */
 footer {
   background-color: rgba(255, 192, 203, 0.753);
   min-height: 50px;
@@ -93,5 +116,10 @@ footer {
   .team-member {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .team-lead img {
+    width: 150px;
+    height: 150px;
   }
 }
