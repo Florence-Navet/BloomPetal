@@ -61,3 +61,7 @@ button:hover {
     color: blue;
     border: 1px solid rgb(255, 0, 144);
 }
+footer {
+    background-color: rgba(255, 192, 203, 0.753);
+    min-height: 50px;
+}

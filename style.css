@@ -123,10 +123,14 @@ footer {
 }
 
 /* ***********MEDIAQUERIES*************** */
-@media screen and (max-width:480px) {
+@media screen and (max-width:450px) {
 
     nav li {
-    font-size: 0.7rem;
+    font-size: 0.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    input {
+        font-size: 0.4rem;
     }
     .service h3{
         font-size: 0.9rem;
@@ -135,15 +139,11 @@ footer {
     .service p {
         font-size: 0.9rem;
     }
-   
-    .img-site img {
-        width: 90px;
-        height: auto;
-        border-radius: 8px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
 
+   
+    .img-site {
+        width: 100%; /* Chaque image occupe 100% de la largeur sur petits écrans */
+        margin: 5px 0; /* Réduit la marge pour les petits écrans */
     }
    
     
