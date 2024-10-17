@@ -112,7 +112,10 @@ footer {
 }
 
 /* Media queries pour adaptabilité */
-@media (max-width: 768px) {
+@media (max-width: 450px) {
+  h1{
+    font-size: 0.7rem;
+  }
   .team-member {
     width: 100%;
     margin-bottom: 20px;
@@ -121,5 +124,8 @@ footer {
   .team-lead img {
     width: 150px;
     height: 150px;
+  }
+  .team-member img {
+    width: 200px;
   }
 }
